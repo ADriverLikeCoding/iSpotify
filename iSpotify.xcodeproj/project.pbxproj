@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F32AAD72B3CC6AF003C1E6E /* enable-track-row.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AAD32B3CC6AF003C1E6E /* enable-track-row.js */; };
+		5F32AAD82B3CC6AF003C1E6E /* enable-open-on-moblie.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AAD42B3CC6AF003C1E6E /* enable-open-on-moblie.js */; };
+		5F32AAD92B3CC6AF003C1E6E /* xhr-monitor.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AAD52B3CC6AF003C1E6E /* xhr-monitor.js */; };
+		5F32AADB2B3CC754003C1E6E /* element-monitor.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AADA2B3CC754003C1E6E /* element-monitor.js */; };
+		5F32AAE02B3CC825003C1E6E /* observer.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AADE2B3CC825003C1E6E /* observer.js */; };
+		5F32AAE22B3CC943003C1E6E /* debug.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AAE12B3CC943003C1E6E /* debug.js */; };
+		5F32AAE62B3CF017003C1E6E /* inject-fetch.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F32AAE52B3CF017003C1E6E /* inject-fetch.js */; };
+		5F8EEAEF2B42489A008B2E46 /* wsHook.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F8EEAEE2B42489A008B2E46 /* wsHook.js */; };
+		5F8EEAF32B427D9B008B2E46 /* mark-premium-device-name.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F8EEAF22B427D9B008B2E46 /* mark-premium-device-name.js */; };
+		5F979E5A2B3F793300A83D95 /* logger.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F979E592B3F793300A83D95 /* logger.js */; };
+		5F979E5C2B3FA62900A83D95 /* clear-page.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F979E5B2B3FA62900A83D95 /* clear-page.js */; };
+		5F979E5E2B3FAEEC00A83D95 /* event-siimulator.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F979E5D2B3FAEEC00A83D95 /* event-siimulator.js */; };
+		5FCBFD682B3014D400BB1308 /* iSpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBFD672B3014D400BB1308 /* iSpotifyApp.swift */; };
+		5FCBFD6A2B3014D400BB1308 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBFD692B3014D400BB1308 /* MainView.swift */; };
+		5FCBFD6C2B3014D600BB1308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBFD6B2B3014D600BB1308 /* Assets.xcassets */; };
+		5FCBFD6F2B3014D600BB1308 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBFD6E2B3014D600BB1308 /* Preview Assets.xcassets */; };
+		5FCBFD762B3015FF00BB1308 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBFD752B3015FF00BB1308 /* WebView.swift */; };
+		5FD2365B2B41F2FF00756B37 /* fake-premium.js in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2365A2B41F2FF00756B37 /* fake-premium.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F32AAD32B3CC6AF003C1E6E /* enable-track-row.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "enable-track-row.js"; sourceTree = "<group>"; };
+		5F32AAD42B3CC6AF003C1E6E /* enable-open-on-moblie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "enable-open-on-moblie.js"; sourceTree = "<group>"; };
+		5F32AAD52B3CC6AF003C1E6E /* xhr-monitor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "xhr-monitor.js"; sourceTree = "<group>"; };
+		5F32AADA2B3CC754003C1E6E /* element-monitor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "element-monitor.js"; sourceTree = "<group>"; };
+		5F32AADE2B3CC825003C1E6E /* observer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = observer.js; sourceTree = "<group>"; };
+		5F32AAE12B3CC943003C1E6E /* debug.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = debug.js; sourceTree = "<group>"; };
+		5F32AAE52B3CF017003C1E6E /* inject-fetch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "inject-fetch.js"; sourceTree = "<group>"; };
+		5F8EEAEE2B42489A008B2E46 /* wsHook.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = wsHook.js; sourceTree = "<group>"; };
+		5F8EEAF22B427D9B008B2E46 /* mark-premium-device-name.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "mark-premium-device-name.js"; sourceTree = "<group>"; };
+		5F979E592B3F793300A83D95 /* logger.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = logger.js; sourceTree = "<group>"; };
+		5F979E5B2B3FA62900A83D95 /* clear-page.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "clear-page.js"; sourceTree = "<group>"; };
+		5F979E5D2B3FAEEC00A83D95 /* event-siimulator.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "event-siimulator.js"; sourceTree = "<group>"; };
+		5FCBFD642B3014D400BB1308 /* iSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCBFD672B3014D400BB1308 /* iSpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSpotifyApp.swift; sourceTree = "<group>"; };
+		5FCBFD692B3014D400BB1308 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5FCBFD6B2B3014D600BB1308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FCBFD6E2B3014D600BB1308 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FCBFD752B3015FF00BB1308 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5FD2365A2B41F2FF00756B37 /* fake-premium.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "fake-premium.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FCBFD612B3014D400BB1308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F32AAD12B3CC669003C1E6E /* js */ = {
+			isa = PBXGroup;
+			children = (
+				5FD236572B41384000756B37 /* tools */,
+				5F32AADC2B3CC7F7003C1E6E /* features */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		5F32AADC2B3CC7F7003C1E6E /* features */ = {
+			isa = PBXGroup;
+			children = (
+				5F32AAD42B3CC6AF003C1E6E /* enable-open-on-moblie.js */,
+				5F32AAD32B3CC6AF003C1E6E /* enable-track-row.js */,
+				5F979E5B2B3FA62900A83D95 /* clear-page.js */,
+				5FD2365A2B41F2FF00756B37 /* fake-premium.js */,
+				5F8EEAF22B427D9B008B2E46 /* mark-premium-device-name.js */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		5FCBFD5B2B3014D400BB1308 = {
+			isa = PBXGroup;
+			children = (
+				5FCBFD662B3014D400BB1308 /* iSpotify */,
+				5FCBFD652B3014D400BB1308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FCBFD652B3014D400BB1308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBFD642B3014D400BB1308 /* iSpotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FCBFD662B3014D400BB1308 /* iSpotify */ = {
+			isa = PBXGroup;
+			children = (
+				5FFEF1062B432F04004F02D1 /* view */,
+				5F32AAD12B3CC669003C1E6E /* js */,
+				5FCBFD672B3014D400BB1308 /* iSpotifyApp.swift */,
+				5FCBFD6B2B3014D600BB1308 /* Assets.xcassets */,
+				5FCBFD6D2B3014D600BB1308 /* Preview Content */,
+			);
+			path = iSpotify;
+			sourceTree = "<group>";
+		};
+		5FCBFD6D2B3014D600BB1308 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBFD6E2B3014D600BB1308 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FD236572B41384000756B37 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				5F32AADA2B3CC754003C1E6E /* element-monitor.js */,
+				5F32AAD52B3CC6AF003C1E6E /* xhr-monitor.js */,
+				5F979E592B3F793300A83D95 /* logger.js */,
+				5F32AADE2B3CC825003C1E6E /* observer.js */,
+				5F32AAE12B3CC943003C1E6E /* debug.js */,
+				5F32AAE52B3CF017003C1E6E /* inject-fetch.js */,
+				5F979E5D2B3FAEEC00A83D95 /* event-siimulator.js */,
+				5F8EEAEE2B42489A008B2E46 /* wsHook.js */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		5FFEF1062B432F04004F02D1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBFD692B3014D400BB1308 /* MainView.swift */,
+				5FCBFD752B3015FF00BB1308 /* WebView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FCBFD632B3014D400BB1308 /* iSpotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCBFD722B3014D600BB1308 /* Build configuration list for PBXNativeTarget "iSpotify" */;
+			buildPhases = (
+				5FCBFD602B3014D400BB1308 /* Sources */,
+				5FCBFD612B3014D400BB1308 /* Frameworks */,
+				5FCBFD622B3014D400BB1308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSpotify;
+			productName = iSpotify;
+			productReference = 5FCBFD642B3014D400BB1308 /* iSpotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FCBFD5C2B3014D400BB1308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5FCBFD632B3014D400BB1308 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FCBFD5F2B3014D400BB1308 /* Build configuration list for PBXProject "iSpotify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FCBFD5B2B3014D400BB1308;
+			productRefGroup = 5FCBFD652B3014D400BB1308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FCBFD632B3014D400BB1308 /* iSpotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FCBFD622B3014D400BB1308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F32AAD72B3CC6AF003C1E6E /* enable-track-row.js in Resources */,
+				5FCBFD6F2B3014D600BB1308 /* Preview Assets.xcassets in Resources */,
+				5F32AAD92B3CC6AF003C1E6E /* xhr-monitor.js in Resources */,
+				5F32AADB2B3CC754003C1E6E /* element-monitor.js in Resources */,
+				5F32AAE02B3CC825003C1E6E /* observer.js in Resources */,
+				5FD2365B2B41F2FF00756B37 /* fake-premium.js in Resources */,
+				5F8EEAF32B427D9B008B2E46 /* mark-premium-device-name.js in Resources */,
+				5FCBFD6C2B3014D600BB1308 /* Assets.xcassets in Resources */,
+				5F32AAE62B3CF017003C1E6E /* inject-fetch.js in Resources */,
+				5F32AAE22B3CC943003C1E6E /* debug.js in Resources */,
+				5F979E5E2B3FAEEC00A83D95 /* event-siimulator.js in Resources */,
+				5F8EEAEF2B42489A008B2E46 /* wsHook.js in Resources */,
+				5F979E5A2B3F793300A83D95 /* logger.js in Resources */,
+				5F32AAD82B3CC6AF003C1E6E /* enable-open-on-moblie.js in Resources */,
+				5F979E5C2B3FA62900A83D95 /* clear-page.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FCBFD602B3014D400BB1308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCBFD762B3015FF00BB1308 /* WebView.swift in Sources */,
+				5FCBFD6A2B3014D400BB1308 /* MainView.swift in Sources */,
+				5FCBFD682B3014D400BB1308 /* iSpotifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FCBFD702B3014D600BB1308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FCBFD712B3014D600BB1308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FCBFD732B3014D600BB1308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSpotify/Preview Content\"";
+				DEVELOPMENT_TEAM = MUV2PPWZ4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhu.iSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FCBFD742B3014D600BB1308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSpotify/Preview Content\"";
+				DEVELOPMENT_TEAM = MUV2PPWZ4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhu.iSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FCBFD5F2B3014D400BB1308 /* Build configuration list for PBXProject "iSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCBFD702B3014D600BB1308 /* Debug */,
+				5FCBFD712B3014D600BB1308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCBFD722B3014D600BB1308 /* Build configuration list for PBXNativeTarget "iSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCBFD732B3014D600BB1308 /* Debug */,
+				5FCBFD742B3014D600BB1308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FCBFD5C2B3014D400BB1308 /* Project object */;
+}
