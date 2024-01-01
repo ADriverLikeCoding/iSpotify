@@ -1,5 +1,5 @@
 # iSpotify
-Hello everyone, this is Spotify, which has unlocked some of Spotify's premium features. The purpose of this project is not to crack Spotify, but to learn the interaction between swift and javascript.
+Hello everyone, this is iSpotify, which has unlocked some of Spotify's premium features. The purpose of this project is not to crack Spotify, but to learn the interaction between swift and javascript.
 
 
 ## Features
