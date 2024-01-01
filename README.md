@@ -23,6 +23,8 @@ After a Spotify account is logged in on multiple devices, you can remotely contr
 
 
 ## Usage/Examples
+Tap now playing bar, then tap devices button on the corner, and select Premium
+
 ![usage](https://github.com/somedaysomeone/iSpotify/assets/99853345/cf98eb1d-e832-42d8-8bf7-dd09243e8195)
 
 
